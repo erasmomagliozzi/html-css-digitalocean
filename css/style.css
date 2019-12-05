@@ -9,8 +9,7 @@ header {
 .central_header {
   background-color: pink;
 }
-.first_section,
-.second_section {
+.first_section {
   width: 100%;
   background-color: grey;
 }
@@ -18,4 +17,33 @@ header {
   margin: 50px 0;
   background-color: red;
   text-align: center;
+}
+.second_section {
+  width: 100%;
+  background-color: yellow;
+}
+/* MEDIA QUERY */
+@media screen and (max-width: 768px) {
+  .display_none_xs {
+    display: none;
+  }
+  .display_block_xs {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .display_none_md {
+    display: none;
+  }
+  .display_block_md {
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+  .display_none_lg {
+    display: none;
+  }
+  .wrapper_40 {
+    width:40%;
+  }
 }

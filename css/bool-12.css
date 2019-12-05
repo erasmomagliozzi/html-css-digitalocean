@@ -254,24 +254,3 @@
     margin-left: calc((100% / 12) * 11);
   }
 }
-@media screen and (max-width: 768px) {
-  .display_none_xs {
-    display: none;
-  }
-  .display_block_xs {
-    display: block;
-  }
-}
-@media screen and (max-width: 992px) and (min-width: 768px) {
-  .display_none_md {
-    display: none;
-  }
-  .display_block_md {
-    display: block;
-  }
-}
-@media screen and (min-width: 992px) {
-  .display_none_lg {
-    display: none;
-  }
-}
