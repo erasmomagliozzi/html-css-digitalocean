@@ -1,14 +1,42 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
 header {
   background-color: green;
   height: 500px;
 }
 .header_top {
-  background-color: blue;
-  height: 50px;
+  height: 60px;
+  background-color: white;
+}
+.logo_header {
+  height: 60px;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  line-height: 50px;
+  margin: 5px;
+  display: inline-block;
+}
+.third_top_header {
+  text-align: right;
+}
+.sign_up {
+  color: skyblue;
+  border: 1px solid skyblue;
+  padding: 0 8px;
+  border-radius: 5px;
 }
 .central_header {
   background-color: pink;
 }
+/* FINE HEADER */
+/* INIZIO MAIN */
 .first_section {
   width: 100%;
   background-color: grey;
@@ -21,6 +49,22 @@ header {
 .second_section {
   width: 100%;
   background-color: yellow;
+}
+.third_section {
+  width: 100%;
+  background-color: green;
+}
+.fourth_section {
+  width: 100%;
+  background-color: blue;
+}
+.fifth_section {
+  width: 100%;
+  background-color: pink;
+}
+.sixth_section {
+  width: 100%;
+  background-color: green;
 }
 /* MEDIA QUERY */
 @media screen and (max-width: 768px) {
