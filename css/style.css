@@ -3,11 +3,12 @@ body {
 }
 header {
   background-color: green;
-  height: 500px;
+  height: 850px;
 }
 .header_top {
   height: 60px;
   background-color: white;
+  font-size: 14px;
 }
 .logo_header {
   height: 60px;
@@ -31,6 +32,21 @@ a {
   border: 1px solid skyblue;
   padding: 0 8px;
   border-radius: 5px;
+}
+.container_hamburger {
+  height: 60px;
+  line-height: 60px;
+  margin-right: 10px;
+}
+.hamburger {
+  color: #2485FD;
+  line-height: 50px;
+  margin: 5px;
+  display: inline-block;
+}
+.header_bottom {
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  height: 850px;
 }
 .central_header {
   background-color: pink;
