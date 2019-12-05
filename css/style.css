@@ -8,5 +8,14 @@ header {
 }
 .central_header {
   background-color: pink;
-  height: 450px;
+}
+.first_section,
+.second_section {
+  width: 100%;
+  background-color: grey;
+}
+.innovative {
+  margin: 50px 0;
+  background-color: red;
+  text-align: center;
 }
