@@ -129,6 +129,12 @@ a {
   color: #2485FD;
   margin: 20px 0;
 }
+.logo_first {
+  height: 80px;
+}
+.logo_lineheight {
+  display: inline-block;
+}
 /* FINE PRIMA SEZIONE */
 /* INIZIO SECONDA SEZIONE */
 
@@ -190,14 +196,30 @@ margin: 10px;
   padding:10px;
 }
 /* FINE QUARTA SEZIONE */
-
-
-
-
 .fifth_section {
   width: 100%;
-  background-color: pink;
+  background-color: rgba(3, 27, 78, 0.5);
+  background-image: url(../img/data-center-map-20321538.svg);
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
 }
+.fifth_section h2 {
+  color: white;
+  padding: 60px 0 30px;
+  font-size: 38px;
+}
+.text_align_left {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
 .sixth_section {
   width: 100%;
   background-color: green;
@@ -217,13 +239,13 @@ margin: 10px;
   .text_central_header {
     margin: 10px;
   }
-  .logo_first {
-    max-width: 100%;
-    height: 100px;
-  }
+
   .didascalia_second_section,
   .cube_second_section {
     margin: 5px 5px;
+  }
+  .logo_lineheight {
+   width: calc((100%/2) - 10px);
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -236,13 +258,8 @@ margin: 10px;
   .text_central_header {
     margin: 10px;
   }
-  .logo_first {
-    max-width: 100%;
-    height: 100px;
-    padding: 10px;
-  }
-  .logo_splunk {
-    height: 80px;
+  .logo_lineheight {
+   width: calc((100%/2) - 10px);
   }
 }
 @media screen and (min-width: 992px) {
@@ -252,12 +269,8 @@ margin: 10px;
   .wrapper_60 {
     width:60%;
   }
-  .logo_first {
-    max-width: 100%;
-    height: 100px;
-    padding: 10px;
+  .logo_lineheight {
+   width: calc((100%/6) - 25px);
   }
-  .logo_splunk {
-    height: 80px;
-  }
+
 }
