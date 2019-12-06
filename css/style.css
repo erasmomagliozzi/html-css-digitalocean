@@ -168,15 +168,28 @@ a {
 }
 /* FINE TERZA SEZIONE */
 /* INIZIO QUARTA SEZIONE */
-.fourth_section {
-  width: 100%;
-  background-color: blue;
+
+.fourth_section h2 {
   text-align: center;
+  color: #031B4E;
+  font-size: 30px;
+  margin: 80px 0 40px;
 }
-
-
-
-
+.fourth_section h3 {
+color: #031B4E;
+margin: 10px;
+}
+.first_p {
+  color:grey;
+}
+.second_p {
+  color: #005FE8;
+  margin: 5px 0;
+}
+.padding_fourth_section {
+  padding:10px;
+}
+/* FINE QUARTA SEZIONE */
 
 
 
