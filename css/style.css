@@ -196,12 +196,13 @@ margin: 10px;
   padding:10px;
 }
 /* FINE QUARTA SEZIONE */
+/* QUINTA SEZIONE */
 .fifth_section {
   width: 100%;
-  background-color: rgba(3, 27, 78, 0.5);
+  background-color: rgb(0, 53, 162);
   background-image: url(../img/data-center-map-20321538.svg);
   background-size: cover;
-  height: 1000px;
+  padding-bottom: 100px;
   text-align: center;
 }
 .fifth_section h2 {
@@ -212,18 +213,84 @@ margin: 10px;
 .text_align_left {
   text-align: left;
 }
+.fifth_section h4,
+.city {
+  color: white;
+}
+.row_places {
 
-
-
-
-
-
-
-
+  padding: 10px 0;
+}
+hr {
+  margin-left: 30px;
+}
+.test_speed {
+  color: #00d7d2;
+}
+/* FINE QUINTA SEZIONE */
+/* SESTA SEZIONE */
 .sixth_section {
   width: 100%;
-  background-color: green;
+  background-color: #F3F5F9;
+  text-align: center;
 }
+.sixth_section h2 {
+  color: #031B4E;
+  padding: 50px;
+}
+.rocker_box {
+  background-color: white;
+  margin-bottom: 80px;
+}
+.logo_rocker {
+  margin: 40px 0;
+}
+.rocker_box p:nth-child(2) {
+  color: grey;
+  font-size: 20px;
+}
+.rocker_box p {
+  color: #0341F4;
+  padding: 20px 0;
+}
+.rocker_box h4 {
+  padding: 5px 0;
+}
+/* FINE SESTA SEZIONE */
+/* SETTIMA SEZIONE */
+.seventh_class  {
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  height: 250px;
+  text-align: center;
+}
+.seventh_class h2 {
+  color: white;
+  padding: 60px 0 30px;
+}
+.btn_account {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0341F4;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* FINE SETTIMA SEZIONE */
+/* FOOTER */
+footer {
+  background-color: #010E28;
+}
+.container_footer {
+  padding: 50px;
+}
+.logo_digital {
+  font-size:  70px;
+  color: #00d7d2;
+}
+
+
+
 /* MEDIA QUERY */
 @media screen and (max-width: 768px) {
   .display_none_xs {
@@ -247,6 +314,9 @@ margin: 10px;
   .logo_lineheight {
    width: calc((100%/2) - 10px);
   }
+  .city_block {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .display_none_md {
@@ -260,6 +330,9 @@ margin: 10px;
   }
   .logo_lineheight {
    width: calc((100%/2) - 10px);
+  }
+  .city_block {
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 992px) {
