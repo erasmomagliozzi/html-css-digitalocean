@@ -286,9 +286,22 @@ footer {
 }
 .logo_digital {
   font-size:  70px;
-  color: #00d7d2;
+  color: #0147FE;
+  margin-bottom: 5px;
 }
-
+.container_footer p {
+  color: lightgrey;
+}
+.logo_social {
+  color: grey;
+  font-size: 25px;
+  margin: 5px 5px 0;
+}
+footer ul li {
+  display: block;
+  color: lightgrey;
+  padding: 2px 5px;
+}
 
 
 /* MEDIA QUERY */
